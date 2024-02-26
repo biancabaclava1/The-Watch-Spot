@@ -11,7 +11,7 @@ padding: 80px 132px;
 width: 1440px;
 height: 790px;
 }
-
+/*
 #about {
 font-family: "Epilogue", sans-serif;
 font-weight: 600;
@@ -27,12 +27,20 @@ color: #1e2827;
     padding-left: 15px;
     padding-right: 15px
 }
+*/
 
 .about {
     margin: auto;
     padding-top: 40px;
     padding-bottom: 80px
 }
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .about-title {
     margin-bottom: 40px;
@@ -60,12 +68,22 @@ color: #1e2827;
     color: #141414
 }
 
+/*common style for all devices*/
 @media screen and (min-width: 0px) {
     .about-block {
         margin-bottom:40px
     }
 }
 
+/*mobile*/
+@media screen and (max-width:767px) {
+    .about-container{
+        max-width: 335px;
+    }
+
+    
+}
+/*tablet*/
 @media screen and (min-width: 768px) {
     .about-container {
         max-width:734px;
@@ -114,10 +132,12 @@ color: #1e2827;
 
     .gif-animation {
         margin: 0 auto;
-        width: 100%
+        width: 100%;
+      
     }
 }
 
+/*desktop*/
 @media screen and (min-width: 1280px) {
     .about-container {
         max-width:1206px;
@@ -144,6 +164,7 @@ color: #1e2827;
         margin-right: 40px;
         max-width: 439px;
         width: 100%
+       
     }
 
     .about-text-two {
@@ -153,13 +174,22 @@ color: #1e2827;
 
     .gif-animation {
         margin: 0;
-        width: 892px
+        width: 892px;
+     
+        
     }
     .gif-animation {
-        margin-left: auto
+        margin-left: auto;
+        
+        
     }
 
     .text-class {
-        display: flex
+        display: flex;
+        width: 859px;
+        height: 90px;
+        
+       
+        
     }
 }
