@@ -1,16 +1,15 @@
 {
-  "name": "The-Watch-Spot",
+  "name": "the-watch-spot",
   "version": "2.0.0",
-  "description": "",
+  "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування  додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
   "homepage": "https://biancabaclava1.github.io/The-Watch-Spot/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /The-Watch-Spot/"
-
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:biancabaclava1/The-Watch-Spot.git"
+    "url": "git+ssh://git@github.com/biancabaclava1/The-Watch-Spot.git"
   },
   "keywords": [],
   "author": "Baclava Bianca <mimibaclava@yahoo.com>",
@@ -27,6 +26,6 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js"
 }
-
