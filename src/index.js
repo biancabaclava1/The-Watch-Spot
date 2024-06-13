@@ -1,0 +1,2 @@
+con;
+const [propertyName] = arrayToDestruct;
